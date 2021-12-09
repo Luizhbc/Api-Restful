@@ -5,7 +5,7 @@ const data = require('./data/data.json')
 app.use(express.json())
 
 app.get('/clients', function (req, res) {
-  res.json(data)
+  res.json(client)
 })
 
 app.get('/clients/:id', function (req, res) {
